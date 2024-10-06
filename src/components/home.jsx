@@ -17,7 +17,6 @@ export default function Home() {
     }
     return (
         <>
-            <h2>Hello, Guest</h2>
             {
                 loader ? <h2>LOADING....</h2> :
 

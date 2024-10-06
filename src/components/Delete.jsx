@@ -34,7 +34,6 @@ export default function Delete(props) {
            case "status"  : setStatus(e.target.value);break;
            case "text"  : setStatus(e.target.value);break;
            default : e.target.value;break;
-
         }   
     }
     return (

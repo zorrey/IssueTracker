@@ -97,7 +97,7 @@ li.project > a:hover{
   left: 0;
   right: 0;
   height: 3.5rem;
-  background: 0.1rem 0.2rem rgba(205, 244, 217, 0.6) ;
+  background: 0.1rem 0.2rem rgba(221, 223, 222, 0.7) ;
 } 
 h2{
   padding: 0.5rem 0 0.5rem 0;
@@ -130,7 +130,7 @@ column-gap: 10px;
   min-height: 100vh;
 }
 #root{ 
-  background: linear-gradient(rgb(205, 244, 217), rgb(132, 200, 152));
+  background: linear-gradient(rgb(221, 223, 222), rgb(170, 232, 188));
 }
 input, select{
   height:2.5rem;
@@ -187,7 +187,7 @@ padding-top: 0.5rem;
   top: 0;
   left: 1rem;
   background:rgb(200, 198, 198) ;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
 @media only screen and ( min-width:1050px ) {
   .all{

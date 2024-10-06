@@ -86,7 +86,7 @@ ProjectSchema.pre('findOneAndDelete', async function(next){
       console.log("project-length-", project[0].issueLogs, project[0].issueCount)
       if((project[0].issueLogs && project[0].issueLogs?.length > 0 )|| project[0].issueCount >0 ){
           console.log('poject length model pre: ', project[0].issueLogs.length)
-          return   next(new Error('This projects has issue logs'))
+          return   next(new Error('This project has issue logs'))
       } else if(project[0].issueLogs.length == 0) {
           console.log('success project model pre: ', project[0].issueLogs?.length)
           return  next()

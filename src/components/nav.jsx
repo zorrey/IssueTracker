@@ -7,9 +7,9 @@ export default function Nav() {
                     <ul className='row nav'>
                         <li> <Link to="/" >Home</Link> </li>
                         <li> <Link to="/projects" >Projects</Link> </li>
-                        <li> <Link to="/projects/new" >New Project</Link> </li>
-                        <li> <Link to="/projects/edit" >Edit Project</Link> </li>
-                        <li> <Link to="/projects/delete" >Delete Project</Link> </li>
+                        <li> <Link to="/projects/new" >New</Link> </li>
+                        <li> <Link to="/projects/edit" >Edit</Link> </li>
+                        <li> <Link to="/projects/delete" >Delete</Link> </li>
                     </ul>
                 </div>
 
